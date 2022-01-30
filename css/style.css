@@ -1,0 +1,89 @@
+/* ------- style guide ----------- */
+
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* CSS Resets begin here */
+
+*,
+:after,
+:before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+  }
+  
+li {
+    list-style: none;
+  }
+
+  
+    /* variables */
+
+:root{
+
+    font-family: 'Roboto', sans-serif;
+    /* colors */
+
+    --black-500: #6b7280;
+    --black-300: #d1d5db;   
+    --black-100: #f3f4f6;
+    --red-500:  #ef4444;
+    --red-300:  #fca5a5;
+    --red-100:  #fee2e2;
+    --green-500: #10b981;
+    --green-300: #6ee7b7;
+    --green-100: #d1fae5; 
+    --blue-500:  #3b82f6;
+    --blue-300:  #93c5fd;
+    --blue-100: #dbeafe;
+    --orange-500: #F59E0B;
+    --orange-300: #FFC431;
+    --orange-100: #FFEB58;
+    --primary-box-shadow: 8px 8px 16px #dfe7ed, -8px -8px 16px #ffffff;
+    --secondary-box-shadow: 2px 4px 20px -1px rgb(0 0 0 / 3%),
+    -1px -2px 20px -1px rgb(0 0 0 / 3%);
+    --tertiary-box-shadow: 6.61px 6.61px 9px #e6eef5, -6.61px -6.61px 9px #faffff;
+
+    /* ----typography---- */
+
+    /* heading & text */
+
+    --tp1: 4.8rem;
+    --tp2: 3.2rem;
+    --tp3: 2.4rem;
+    --tp4: 1.6rem;
+    --tp5: 0.8rem;
+
+    /* line height */
+
+    --lh1: 6.4rem;
+    --lh2: 4rem;
+    --lh3: 3.2rem;
+    --lh4: 2.4rem;
+    --lh5: 1.6rem;
+
+    /* font weight */
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+    --fw-black: 900;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
