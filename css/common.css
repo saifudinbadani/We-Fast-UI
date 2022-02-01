@@ -21,9 +21,12 @@ a {
 li {
     list-style: none;
   }
+
+
 body{
   font-family: 'Roboto', sans-serif;
 }
+
   
     /* variables */
 
@@ -48,8 +51,8 @@ body{
     --blue-500:  #3b82f6;
     --blue-300:  #93c5fd;
     --blue-100: #dbeafe;
-    --orange-500: #F59E0B;
-    --orange-300: #FFC431;
+    --orange-500: #d68904;
+    --orange-300: #fac94d;
     --orange-100: #FFEB58;
     --primary-box-shadow: 8px 8px 16px #dfe7ed, -8px -8px 16px #ffffff;
     --secondary-box-shadow: 2px 4px 20px -1px rgb(0 0 0 / 3%),
@@ -91,6 +94,7 @@ body{
 .heading-2{
   font-size: var(--tp2);
   line-height: var(--lh2);
+  color: var(--heading);
 }
  
 .heading-3{
@@ -101,6 +105,7 @@ body{
 .heading-4{
   font-size: var(--tp4);
   line-height: var(--lh4);
+  color: var(--text);
 }
  
 .heading-5{

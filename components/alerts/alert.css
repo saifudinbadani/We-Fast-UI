@@ -1,0 +1,35 @@
+@import "../../css/common.css";
+
+.alert{
+    padding: 0.5rem 0.8rem;
+    margin: 0.8rem;
+    border-radius: 3px;
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+}
+
+.alert-primary{
+    color: var(--blue-500);
+    background-color: var(--blue-300);
+}
+
+.alert-warning{
+    color: var(--orange-500);
+    background-color: var(--orange-300);
+}
+
+.alert-danger{
+    color: var(--red-500);
+    background-color: var(--red-300);
+}
+
+.alert-secondary{
+    color: var(--black-500);
+    background-color: var(--black-300);
+}
+
+.alert-success{
+    color: var(--green-500);
+    background-color: var(--green-300);
+}
