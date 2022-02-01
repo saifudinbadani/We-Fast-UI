@@ -112,6 +112,20 @@ body{
   font-size: var(--tp5);
   line-height: var(--lh5);
 }
+
+
+/* display properties */
+
+.display-flex{
+  display: flex;
+}
+
+.pos-rltv{
+  position: relative;
+}
+
+
+
  
 .p0{
   padding: 0rem;
