@@ -12,6 +12,7 @@
   margin: 0;
   box-sizing: border-box;
   font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -21,15 +22,18 @@ a {
 li {
     list-style: none;
   }
-
   
     /* variables */
 
 :root{
 
-    font-family: 'Roboto', sans-serif;
+    
     /* colors */
-
+    --primary: #2F6BF7;
+    --secondary: #E3E8F2;
+    --body: #f3f4f6;
+    --text: #989b9e;
+    --heading: #3f4041;
     --black-500: #6b7280;
     --black-300: #d1d5db;   
     --black-100: #f3f4f6;
@@ -75,7 +79,57 @@ li {
     --fw-bold: 700;
     --fw-black: 900;
 }
-    
+
+
+.heading-1{
+  font-size: var(--tp1);
+  line-height: var(--lh1);
+}
+
+.heading-2{
+  font-size: var(--tp2);
+  line-height: var(--lh2);
+}
+ 
+.heading-3{
+  font-size: var(--tp3);
+  line-height: var(--lh3);
+}
+ 
+.heading-4{
+  font-size: var(--tp4);
+  line-height: var(--lh4);
+}
+ 
+.heading-5{
+  font-size: var(--tp5);
+  line-height: var(--lh5);
+}
+ 
+.p0{
+  padding: 0rem;
+}
+.p1{
+  padding: 1rem;
+}
+
+.p2{
+  padding: 1.6rem;
+}
+
+.p3{
+  padding: ;
+}
+
+.p2{
+
+}
+
+
+.-m1{
+  margin: ;
+}
+  
 
 
 

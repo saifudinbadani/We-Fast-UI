@@ -1,0 +1,14 @@
+@import "../../css/style.css";
+
+.btn{
+    padding: 0.2rem;
+    margin: 0.8rem;
+    border-radius: 2px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.btn-solid-primary{
+    background-color: var(--blue-500);
+}
