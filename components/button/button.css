@@ -49,3 +49,9 @@
     color: white;
     background-color: var(--black-500);
 }
+
+/* icons */
+
+.icon{
+    color: var(--black-500);
+}
