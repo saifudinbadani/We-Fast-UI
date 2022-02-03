@@ -10,6 +10,9 @@
     font-size: 1.5rem;
 }
 
+.btn:hover{
+    transition: 0.3s;
+}
 /* primary buttons */
 .btn-solid-primary{
     background-color: var(--blue-500);
@@ -27,6 +30,16 @@
 .btn-solid-secondary:hover{
     background-color: var(--black-300);
 }
+
+.btn-solid-cancel{
+    background-color: var(--red-500);
+    color: white;
+}
+
+.btn-solid-cancel:hover{
+    background-color: var(--red-300);
+}
+
 
 /* outline buttons */
 
@@ -51,7 +64,18 @@
 }
 
 /* icons */
+.btn-t-icon{
+    
+    border: 1px solid var(--black-500);
+    color: var(--black-500); 
+}
 
-.icon{
-    color: var(--black-500);
+.btn-t-icon:hover{
+    color: white;
+    background-color: var(--black-500);
+}
+
+.btn-icon{
+   font-size: 2rem;
+   padding-bottom: 0.2rem;
 }

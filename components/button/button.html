@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="button.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
       rel="stylesheet">
     <title>Button</title>
 </head>
@@ -16,29 +16,35 @@
         <div class="wrapper">
             <button class="btn btn-solid-primary">Primary</button>
             <button class="btn btn-solid-secondary">Secondary</button>
+            <button class="btn btn-solid-cancel">Cancel</button>
         </div>
         <hr>
         <h4 class="heading-4">Outline buttons</h4>
         <div class="wrapper">
             <button class="btn btn-outline-primary">Primary</button>
             <button class="btn btn-outline-secondary">Secondary</button>
+            <button class="btn btn-outline-cancel">Cancel</button>
         </div>
         <hr>
         <h4 class="heading-4">Icon with text buttons</h4>
         <div class="wrapper">
-            <button class="btn">
-                <i class="material-icons-outlined icon"></i>
+            <button class="btn btn-t-icon">
+                <i class="fas fa-shopping-cart btn-icon"></i>
                 Add to cart</button>
-            <button class="btn">
-                
+            <button class="btn btn-t-icon">
+                <i class="fas fa-trash btn-icon"></i>
                 Remove</button>
         </div>
         
         <hr>
         <h4 class="heading-4">Icon buttons</h4>
         <div class="wrapper">
-            <button class="btn">Add to cart</button>
-            <button class="btn">Remove</button>
+            <button class="btn btn-t-icon">
+                <i class="fas fa-shopping-cart btn-icon"></i>
+            </button>
+            <button class="btn btn-t-icon">
+                <i class="fas fa-trash btn-icon"></i>
+            </button>
         </div>
     </section>
 </body>
