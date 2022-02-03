@@ -1,1 +1,25 @@
 @import "../../css/common.css";
+
+
+
+.badge-notification{
+    position: absolute;
+    color: white;
+    border-radius: 50%;  
+    background-color: var(--red-500);
+    text-align: center;
+    border: 1px solid white;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    top: 13px;
+    left: 35px;
+    
+}
+
+.badge-icon{
+    font-size: 5rem;
+    margin: 1rem;
+    cursor: pointer;
+}
