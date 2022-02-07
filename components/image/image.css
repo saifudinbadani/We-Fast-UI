@@ -1,0 +1,18 @@
+@import "../../shared.css";
+
+/* responsive image */
+/* https://www.w3schools.com/howto/howto_css_image_responsive.asp */
+
+.resp-img > img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;  
+}
+
+/* round img */
+
+.rnd-img > img {
+    border-radius: 50%;
+    height: 12rem;
+    margin: 1rem;
+}

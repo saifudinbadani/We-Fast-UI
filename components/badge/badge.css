@@ -1,7 +1,27 @@
-@import "../../css/common.css";
+@import "../../shared.css";
+
+/* badges */
+.badge-container{
+	margin: 0 1rem;
+}
+
+.badge-primary{
+    padding: 0.5rem;
+	border-radius: 1rem;
+	font-size: 1rem;
+    background-color: var(--blue-500);
+    color: white;
+}
+.badge-warning{
+    padding: 0.5rem;
+	border-radius: 1rem;
+	font-size: 1rem;
+    background-color: var(--orange-500);
+    color: white;
+}
 
 
-
+/* icon badges with notification */
 .badge-notification{
     position: absolute;
     color: white;
@@ -28,4 +48,42 @@
     font-size: 5rem;
     margin: 1rem;
     cursor: pointer;
+}
+
+/* avatar badges */
+
+.avatar-online{
+    z-index: 1;
+    position: absolute;
+    background-color: var(--green-500);
+    border: 2px solid white;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    bottom: 1.5rem;
+    left: 8rem;  
+}
+
+.avatar-dnd{
+    z-index: 1;
+    position: absolute;
+    background-color: var(--red-500);
+    border: 2px solid white;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    bottom: 1.5rem;
+    left: 8rem;  
+}
+
+.avatar-offline{
+    z-index: 1;
+    position: absolute;
+    background-color: var(--black-500);
+    border: 2px solid white;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    bottom: 1.5rem;
+    left: 8rem;
 }
