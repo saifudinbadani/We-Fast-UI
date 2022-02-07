@@ -134,6 +134,10 @@ body{
 }
 
 
+.m-1{
+  margin: 1rem;
+}
+
 /* shadow class */
 
 .shadow{
@@ -144,6 +148,11 @@ body{
   box-shadow: var(--shadow-hover);
 }
 
+/* background color */
+
+.bg-clr{
+  background-color: var(--secondary);
+}
 
 
 

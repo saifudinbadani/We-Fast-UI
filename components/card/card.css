@@ -1,8 +1,5 @@
 @import "../../shared.css";
 
-body {
-    background-color: var(--secondary);
-}
 
 /* common card classes */
 .card,

@@ -1,0 +1,40 @@
+@import "../../shared.css";
+
+
+
+
+.form-control {
+    margin-bottom: 1rem;
+    padding-bottom: 2rem;
+    max-width: 80%;
+}
+
+.form-control > label {
+    color: var(--text);
+    margin-bottom: 1rem;
+}
+
+.form-control  > input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+
+.form-control > input:focus {
+    outline: 0;
+    border-color: var(--blue-500);
+}
+/* error */
+.form-control > small{
+    font-size: 1rem;
+}
+.form-control .err{
+    color: var(--red-500);
+    border-color: var(--red-500);
+}
+
+
+
+
