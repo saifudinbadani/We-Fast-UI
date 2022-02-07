@@ -20,7 +20,7 @@
 }
 
 .btn-solid-primary:hover{
-    background-color: var(--blue-300);
+    opacity: 0.8;
 }
 .btn-solid-secondary{
     background-color: var(--black-500);
@@ -28,7 +28,7 @@
 }
 
 .btn-solid-secondary:hover{
-    background-color: var(--black-300);
+    opacity: 0.8;
 }
 
 .btn-solid-cancel{
@@ -37,7 +37,7 @@
 }
 
 .btn-solid-cancel:hover{
-    background-color: var(--red-300);
+    opacity: 0.8;
 }
 
 
@@ -45,7 +45,7 @@
 
 .btn-outline-primary{
     border: 1px solid var(--blue-500);
-    color: var(--black-500);
+    color: var(--blue-500);
 }
 
 .btn-outline-primary:hover{
@@ -63,6 +63,17 @@
     background-color: var(--black-500);
 }
 
+.btn-outline-cancel{
+    border: 1px solid var(--red-500);
+    color: var(--red-500);
+}
+
+.btn-outline-cancel:hover{
+    color: white;
+    background-color: var(--red-500);
+}
+
+
 /* icons */
 .btn-t-icon{
     
@@ -78,4 +89,21 @@
 .btn-icon{
    font-size: 2rem;
    padding-bottom: 0.2rem;
+}
+
+/* floating buttons */
+.flt-btn{
+    height: 4rem;
+    width: 4rem;
+    background-color: var(--blue-500);
+    color: white;
+    border-radius: 50%;
+    font-size: 3.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0;  
+}
+
+.flt-btn:hover{
+    opacity: 0.8;
 }
