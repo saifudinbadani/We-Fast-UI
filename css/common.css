@@ -54,10 +54,9 @@ body{
     --orange-500: #d68904;
     --orange-300: #fac94d;
     --orange-100: #FFEB58;
-    --primary-box-shadow: 8px 8px 16px #dfe7ed, -8px -8px 16px #ffffff;
-    --secondary-box-shadow: 2px 4px 20px -1px rgb(0 0 0 / 3%),
-    -1px -2px 20px -1px rgb(0 0 0 / 3%);
-    --tertiary-box-shadow: 6.61px 6.61px 9px #e6eef5, -6.61px -6.61px 9px #faffff;
+    --shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    --shadow-hover: rgba(0, 0, 0, 0.705) 0px 5px 15px;
+    
 
     /* ----typography---- */
 
@@ -112,33 +111,48 @@ body{
   font-size: var(--tp5);
   line-height: var(--lh5);
 }
- 
-.p0{
-  padding: 0rem;
+
+
+/* display properties */
+
+.display-flex{
+  display: flex;
 }
-.p1{
+.display-flex-c{
+  display: flex;
+  flex-direction: column;
+}
+
+.pos-rltv{
+  position: relative;
+}
+
+
+/* utility classes */
+.p-1{
   padding: 1rem;
 }
 
-.p2{
-  padding: 1.6rem;
+
+.m-1{
+  margin: 1rem;
 }
 
-.p3{
-  padding: ;
+/* shadow class */
+
+.shadow{
+  box-shadow: var(--shadow);
 }
 
-.p2{
-
+.shadow:hover{
+  box-shadow: var(--shadow-hover);
 }
 
+/* background color */
 
-.-m1{
-  margin: ;
+.bg-clr{
+  background-color: var(--secondary);
 }
-  
-
-
 
 
 

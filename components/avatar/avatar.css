@@ -1,0 +1,32 @@
+@import "../../css/common.css";
+
+.avatar{
+
+}
+/* selecting img element immediate inside .avatar class*/
+.avatar-round > img {
+    border-radius: 50%;
+    height: 10rem;
+    margin: 1rem;
+}
+
+
+.avatar-square > img {
+    border-radius: 7px;
+    height: 10rem;
+    margin: 1rem;
+}
+
+/* avatar sizes */
+.avatar-md > img{
+    height: 7rem;
+}
+
+.avatar-sm > img{
+    height: 5rem;
+}
+
+.avatar-xs > img{
+    height: 3rem;
+}
+
