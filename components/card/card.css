@@ -1,1 +1,92 @@
-@import "../../css/common.css";
+@import "../../shared.css";
+
+body {
+    background-color: var(--secondary);
+}
+
+/* common card classes */
+.card,
+.card-h {
+    background-color: white;
+    max-width: 50rem;
+    gap: 1rem;
+    border-radius: 7px;
+    margin: 1rem;
+}
+
+.card-title{
+    color: var(--heading);
+}
+
+.card-author,
+.card-text {
+    color: var(--text);
+}
+
+.card-btn {
+    margin-left: 0;
+    width: auto;
+}
+
+/* vertical cards */
+.card {
+    max-width: 25rem;
+}
+
+.card-img {
+    margin: auto;
+}
+
+.card-img >img {
+    max-width: 25rem;
+    border-radius: 7px;
+}
+
+.card-content {
+    margin-left: 1rem;
+}
+
+
+
+/* horizontal cards */
+.card-content-h {
+    margin: auto 1rem;
+}
+
+.card-img-h >img {
+    height: 20rem;
+    width: 30rem;
+    border-radius: 7px;
+    margin: 1rem;
+}
+
+.card-dismiss{
+    position: absolute;
+    font-size: 2.5rem;
+    color: var(--text);
+    right: 1rem;
+    cursor: pointer;
+}
+
+.card-dismiss:hover{
+    color: var(--black-500);
+}
+
+/* overlay text */
+
+.text-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 7px;
+    height: 100%;
+    width: 100%;
+    background-color: #fffdffc9;
+}
+
+.text-overlay-content{
+    padding-top: 12rem;
+    text-align: center;
+}
