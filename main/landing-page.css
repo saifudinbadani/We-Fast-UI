@@ -1,0 +1,35 @@
+@import "../shared.css";
+
+.nav-container{
+    font-size: 3rem;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+   
+}
+
+.nav-container > a{
+    color: var(--text);
+    margin: 1rem 0.5rem;
+}
+
+.nav-container > a:nth-child(2){
+    margin-left: auto;
+}
+
+.home-main{
+    font-size: 3rem;
+    margin: 20rem; 
+}
+.home-main-content{
+    max-width: 400px;   
+    text-align: center; 
+    align-self: center;
+}
+
+.main-btn{
+    justify-content: center;
+    align-items: center;
+}
