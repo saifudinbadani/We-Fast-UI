@@ -107,3 +107,10 @@
 .flt-btn:hover{
     opacity: 0.8;
 }
+
+/* button size */
+
+.btn-l{
+    padding: 1rem;
+    font-size: 2rem;
+}
