@@ -4,4 +4,5 @@
 @import "./components/badge/badge.css";
 @import "./components/button/button.css";
 @import "./components/card/card.css";
-@import "./main/landing-page.css"
+@import "./main/landing-page.css";
+@import "./documentation/documentation.css";
