@@ -6,63 +6,151 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="avatar.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../prism/prism.css">
+    <script src="../../prism/prism.js" defer></script>
     <title>Avatar</title>
 </head>
 
 <body>
-    <section class="section">
-        <h2 class="heading-2">Avatars</h2>
-        <h4 class="heading-4">Round Avatars</h4>
-        <div class="wrapper display-flex">
-            <div class="avatar-round">
-                <img src="../../assets/avatar-1.png" alt="round avatar">
+    <header class="header">
+        <nav class="nav-container display-flex">
+            <a href="#" class="nav-link">Logo</a>
+            <a href="#" class="nav-link">Github link</a>
+        </nav>
+    </header>
+    <nav>
+        <ul class="sidebar-container">
+            <div class="heading-3">Guide</div>
+            <div class="sidebar-heading heading-3">Components</div>
+            <li class="sidebar-item"><a href="#" class="sidebar-link">Alert</a></li>
+            <li class="sidebar-item"><a href="#" class="sidebar-link">Avatar</a></li>
+            <li class="sidebar-item"><a href="#" class="sidebar-link">Badge</a></li>
+            <li class="sidebar-item"><a href="#" class="sidebar-link">Button</a></li>
+            <li class="sidebar-item"><a href="#" class="sidebar-link">Card</a></li>
+            <li class="sidebar-item"><a href="#" class="sidebar-link">Image</a></li>
+            <li class="sidebar-item"><a href="#" class="sidebar-link">Input</a></li>
+        </ul>
+    </nav>
+    
+    <main class="main-container">
+        <section class="section">
+            <h2 class="heading-2 fw-regular m-tp-one">Avatars</h2>
+            <hr>
+            <h4 class="heading-4 fw-regular">Round Avatars</h4>
+            <div class="wrapper display-flex p-1 m-tp-one">
+                <div class="avatar-round">
+                    <img src="../../assets/avatar-1.png" alt="round avatar">
+                </div>
+                <div class="avatar-round">
+                    <img src="../../assets/avatar-2.png" alt="round avatar">
+                </div>
+                <div class="avatar-round">
+                    <img src="../../assets/avatar-3.png" alt="round avatar">
+                </div>
+                <div class="avatar-round">
+                    <img src="../../assets/avatar-4.png" alt="round avatar">
+                </div>
             </div>
-            <div class="avatar-round">
-                <img src="../../assets/avatar-2.png" alt="round avatar" >
-            </div>
-            <div class="avatar-round">
-                <img src="../../assets/avatar-3.png" alt="round avatar">
-            </div>
-            <div class="avatar-round">
-                <img src="../../assets/avatar-4.png" alt="round avatar">
-            </div>
-        </div>
-        <hr>
 
-        <h4 class="heading-4">Square avatars</h4>
-        <div class="wrapper display-flex">
-            <div class="avatar-square">
-                <img src="../../assets/avatar-1.png" alt="square avatar">
-            </div>
-            <div class="avatar-square">
-                <img src="../../assets/avatar-2.png" alt="square avatar" >
-            </div>
-            <div class="avatar-square">
-                <img src="../../assets/avatar-3.png" alt="square avatar">
-            </div>
-            <div class="avatar-square">
-                <img src="../../assets/avatar-4.png" alt="square avatar">
-            </div>
-        </div>
-        <hr>
+            <pre>
+                <code class="language-markup">
+                    <div class="avatar-round">
+                        <img src="..." alt="round avatar">
+                    </div>
+                    <div class="avatar-round">
+                        <img src="..." alt="round avatar">
+                    </div>
+                    <div class="avatar-round">
+                        <img src="..." alt="round avatar">
+                    </div>
+                    <div class="avatar-round">
+                        <img src="..." alt="round avatar">
+                    </div>
+                </code>
+            </pre>
 
-        <h4 class="heading-4">Avatars with different sizes</h4>
-        <div class="wrapper display-flex">
-            <div class="avatar-round">
-                <img src="../../assets/avatar-1.png" alt="round avatar">
+            <hr>
+
+            <h4 class="heading-4 fw-regular">Square avatars</h4>
+            <div class="wrapper display-flex p-1 m-tp-one">
+                <div class="avatar-square">
+                    <img src="../../assets/avatar-1.png" alt="square avatar">
+                </div>
+                <div class="avatar-square">
+                    <img src="../../assets/avatar-2.png" alt="square avatar">
+                </div>
+                <div class="avatar-square">
+                    <img src="../../assets/avatar-3.png" alt="square avatar">
+                </div>
+                <div class="avatar-square">
+                    <img src="../../assets/avatar-4.png" alt="square avatar">
+                </div>
             </div>
-            <div class="avatar-round avatar-md">
-                <img src="../../assets/avatar-2.png" alt="round avatar" >
+
+            <pre>
+                <code class="language-markup">
+                    <div class="avatar-square">
+                        <img src="..." alt="square avatar">
+                    </div>
+                    <div class="avatar-square">
+                        <img src="..." alt="square avatar">
+                    </div>
+                    <div class="avatar-square">
+                        <img src="..." alt="square avatar">
+                    </div>
+                    <div class="avatar-square">
+                        <img src="..." alt="square avatar">
+                    </div>
+                </code>
+            </pre>
+            <hr>
+
+            <h4 class="heading-4 fw-regular">Avatars with different sizes</h4>
+            <div class="wrapper display-flex p-1 m-tp-one">
+                <div class="avatar-round">
+                    <img src="../../assets/avatar-1.png" alt="round avatar">
+                </div>
+                <div class="avatar-round avatar-md">
+                    <img src="../../assets/avatar-2.png" alt="round avatar">
+                </div>
+                <div class="avatar-round avatar-sm">
+                    <img src="../../assets/avatar-3.png" alt="round avatar">
+                </div>
+                <div class="avatar-round avatar-xs">
+                    <img src="../../assets/avatar-4.png" alt="round avatar">
+                </div>
             </div>
-            <div class="avatar-round avatar-sm">
-                <img src="../../assets/avatar-3.png" alt="round avatar">
-            </div>
-            <div class="avatar-round avatar-xs">
-                <img src="../../assets/avatar-4.png" alt="round avatar">
-            </div>
-        </div>
-        <hr>
-    </section>
+
+            <pre>
+                <code class="language-markup">
+                    <div class="avatar-round">
+                        <img src="..." alt="round avatar">
+                    </div>
+                    <div class="avatar-round avatar-md">
+                        <img src="..." alt="round avatar">
+                    </div>
+                    <div class="avatar-round avatar-sm">
+                        <img src="..." alt="round avatar">
+                    </div>
+                    <div class="avatar-round avatar-xs">
+                        <img src="..." alt="round avatar">
+                    </div>
+                </code>
+            </pre>
+            <hr>
+        </section>
+    </main>
+
+    <footer class="footer-container display-flex">
+        <i class="fa-solid fa-angle-left footer-icon"></i>
+        <a href="../alerts/alert.html" class="footer-link m-rght-auto">
+            Alert</a>
+        <a href="../badge/badge.html" class="footer-link">
+            Badge
+        </a>
+        <i class="fa-solid fa-angle-right footer-icon"></i>
+    </footer>
 </body>
 
 </html>
