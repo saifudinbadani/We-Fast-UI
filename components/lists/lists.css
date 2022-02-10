@@ -1,0 +1,39 @@
+@import "../../shared.css";
+
+.spaced-list,
+.stacked-list{
+    border:1px solid black;
+    width: 15rem;
+    background-color: var(--body);
+    border-radius: 5px;
+}
+
+.spaced-list > .list-heading{
+    border-bottom: 1px solid black;
+    padding: 0 2rem;
+}
+.spaced-list > li {
+    padding: 0.7rem 0.3rem;
+    margin: 0.5rem 0;
+    border-radius: 4px;
+}
+
+.list-item{
+    font-size: 1.2rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.list-item:hover{
+    background-color: var(--primary);
+    color: white;
+}
+
+/* stacked lists */
+.stacked-list > li {
+    padding: 0.7rem 1rem;
+}
+
+
+
+
