@@ -1,4 +1,4 @@
-@import "../../css/common.css";
+@import "../../shared.css";
 
 .alert{
     padding: 0.5rem 0.8rem;
@@ -6,7 +6,7 @@
     border-radius: 3px;
     border: none;
     background: none;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 .alert-primary{

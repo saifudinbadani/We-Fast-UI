@@ -47,14 +47,19 @@
 
 /* footer */
 .footer-container{
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin-left: 25rem;
-    margin-top: 7rem;
+    margin-top: 2rem;
     width: 70%;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .footer-link{
     text-decoration: none;
     color: var(--heading);
+}
+
+.footer-icon{
+    padding: 0 0.3rem;
 }

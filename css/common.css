@@ -160,6 +160,10 @@ body {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+
+.m-rght-auto{
+  margin-right: auto;
+}
 /* shadow class */
 
 .shadow {
