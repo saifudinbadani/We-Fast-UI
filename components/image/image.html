@@ -1,27 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="image.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../prism/prism.css">
+    <script src="../../prism/prism.js" defer></script>
     <title>Image</title>
 </head>
+
 <body>
-    <section class="section">
-        <h2 class="heading-2">Image</h2>
-        <div class="wrapper">
+    <header class="header">
+        <nav class="nav-container display-flex">
+            <a href="../../index.html" class="nav-link">Logo</a>
+            <a href="https://github.com/saifudinbadani" target="_blank" class="nav-link">Github link</a>
+        </nav>
+    </header>
+    <nav>
+        <ul class="sidebar-container">
+            <div class="heading-3">Guide</div>
+            <div class="sidebar-heading heading-3">Components</div>
+            <li class="sidebar-item"><a href="../alerts/alert.html" class="sidebar-link">Alert</a></li>
+            <li class="sidebar-item"><a href="../avatar/avatar.html" class="sidebar-link">Avatar</a></li>
+            <li class="sidebar-item"><a href="../badge/badge.html" class="sidebar-link">Badge</a></li>
+            <li class="sidebar-item"><a href="../button/button.html" class="sidebar-link">Button</a></li>
+            <li class="sidebar-item"><a href="../card/card.html" class="sidebar-link">Card</a></li>
+            <li class="sidebar-item"><a href="../image/image.html" class="sidebar-link">Image</a></li>
+            <li class="sidebar-item"><a href="../input/input.html" class="sidebar-link">Input</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-container">
+        <section class="section">
+            <h2 class="heading-2 fw-regular m-tp-one">Image</h2>
+            <hr>
+            <h4 class="heading-4 fw-regular">Responsive Image</h4>
             <!-- responsive image -->
-            <div class="resp-img p-1">
-                <h4 class="heading-4">Responsive Image</h4>
-                <img src="../../assets/responsive-image.jpg" alt="responsive image">
+            <div class="wrapper p-1 m-tp-one">
+                <div class="resp-img p-1">
+                    <img src="../../assets/responsive-image.jpg" alt="responsive image">
+                </div>
             </div>
+
+            <pre>
+                <code class="language-markup">
+                    <div class="resp-img">
+                        <img src="..." alt="responsive image">
+                    </div>
+                </code>
+            </pre>
+            <hr>
             <!-- round image -->
-            <div class="rnd-img p-1">
-                <h4 class="heading-4">Round Image</h4>
-                <img src="../../assets/round-img.jpg" alt="round image">
+            <h4 class="heading-4 fw-regular">Round Image</h4>
+            <div class="wrapper p-1 m-tp-one">
+                <div class="rnd-img p-1">
+                    <img src="../../assets/round-img.jpg" alt="round image">
+                </div>
             </div>
-        </div>
-        <hr>
+
+            <pre>
+                <code class="language-markup">
+                    <div class="rnd-img">
+                        <img src=".." alt="round image">
+                    </div>
+                </code>
+            </pre>
+            <hr>
+    </main>
+
+    <footer class="footer-container display-flex">
+        <i class="fa-solid fa-angle-left footer-icon"></i>
+        <a href="../card/card.html" class="footer-link m-rght-auto">
+            Card</a>
+        <a href="../input/input.html" class="footer-link">
+            Input
+        </a>
+        <i class="fa-solid fa-angle-right footer-icon"></i>
+    </footer>
 </body>
+
 </html>

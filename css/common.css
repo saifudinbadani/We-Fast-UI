@@ -139,6 +139,17 @@ body {
   position: relative;
 }
 
+.z-index-one{
+  z-index: 1;
+}
+
+.z-index-two{
+  z-index: 2;
+}
+
+.z-index-three{
+  z-index: 3;
+}
 
 /* utility classes */
 .p-1 {

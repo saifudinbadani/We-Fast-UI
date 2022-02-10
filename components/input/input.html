@@ -6,29 +6,103 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="input.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../prism/prism.css">
+    <script src="../../prism/prism.js" defer></script>
     <title>Input</title>
 </head>
 
 <body>
-    <section class="section">
-        <h2 class="heading-2">Input</h2>
-        <div class="wrapper">
+    <header class="header">
+        <nav class="nav-container display-flex">
+            <a href="../../index.html" class="nav-link">Logo</a>
+            <a href="https://github.com/saifudinbadani" target="_blank" class="nav-link">Github link</a>
+        </nav>
+    </header>
+    <nav>
+        <ul class="sidebar-container">
+            <div class="heading-3">Guide</div>
+            <div class="sidebar-heading heading-3">Components</div>
+            <li class="sidebar-item"><a href="../alerts/alert.html" class="sidebar-link">Alert</a></li>
+            <li class="sidebar-item"><a href="../avatar/avatar.html" class="sidebar-link">Avatar</a></li>
+            <li class="sidebar-item"><a href="../badge/badge.html" class="sidebar-link">Badge</a></li>
+            <li class="sidebar-item"><a href="../button/button.html" class="sidebar-link">Button</a></li>
+            <li class="sidebar-item"><a href="../card/card.html" class="sidebar-link">Card</a></li>
+            <li class="sidebar-item"><a href="../image/image.html" class="sidebar-link">Image</a></li>
+            <li class="sidebar-item"><a href="../input/input.html" class="sidebar-link">Input</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-container">
+        <section class="section">
+            <h2 class="heading-2 fw-regular m-tp-one">Input</h2>
+            <hr>
+            <h4 class="heading-4 fw-regular">Default Input</h4>
+            <div class="wrapper p-1 m-tp-one">
                 <div class="form-control p-1">
                     <label for="username" class="heading-4">Username *</label>
                     <input type="text" id="username" placeholder="Enter username">
                 </div>
+            </div>
+
+            <pre>
+                <code class="language-markup">
+                    <div class="form-control p-1">
+                        <label for="username" class="heading-4">Username *</label>
+                        <input type="text" id="username" placeholder="Enter username">
+                    </div>
+                </code>
+            </pre>
+            <hr>
+            <h4 class="heading-4 fw-regular">Validation</h4>
+            <div class="wrapper p-1 m-tp-one">
                 <div class="form-control p-1">
                     <label for="email" class="heading-4 success">Email</label>
                     <input type="text" id="email" class="success" placeholder="Enter email">
                     <small class="success">Email available</small>
                 </div>
+            </div>
+
+            <pre>
+                <code class="language-markup">
+                    <div class="form-control p-1">
+                        <label for="email" class="heading-4 success">Email</label>
+                        <input type="text" id="email" class="success" placeholder="Enter email">
+                        <small class="success">Email available</small>
+                    </div>
+                </code>
+            </pre>
+            <hr>
+            <div class="wrapper p-1 m-tp-one">
                 <div class="form-control p-1">
                     <label for="password" class="heading-4 err">Password *</label>
                     <input type="password" id="password" class="err" placeholder="Enter password again">
                     <small class="err">Wrong password</small>
                 </div>
-        </div>
-        <hr>
+            </div>
+
+            <pre>
+                <code class="language-markup">
+                    <div class="form-control p-1">
+                        <label for="password" class="heading-4 err">Password *</label>
+                        <input type="password" id="password" class="err" placeholder="Enter password again">
+                        <small class="err">Wrong password</small>
+                    </div>
+                </code>
+            </pre>
+            <hr>
+        </section>
+    </main>
+
+    <footer class="footer-container display-flex">
+        <i class="fa-solid fa-angle-left footer-icon"></i>
+        <a href="../image/image.html" class="footer-link m-rght-auto">
+            Image</a>
+        <a href="../input/input.html" class="footer-link">
+            Input
+        </a>
+        <i class="fa-solid fa-angle-right footer-icon"></i>
+    </footer>
 </body>
 
 </html>
