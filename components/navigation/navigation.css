@@ -1,0 +1,24 @@
+@import "../../shared.css";
+
+.nav-container-demo{
+    font-size: 3rem;
+    gap: 1rem;
+    background-color: var(--green-100);
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 5rem;
+    align-items: center;
+    border-bottom: 1px solid var(--green-500);
+}
+
+.nav-container-demo > a{
+    color: var(--text);
+    margin: 1rem 0.5rem;
+}
+
+.nav-container-demo > a:nth-child(2){
+    margin-left: auto;
+}

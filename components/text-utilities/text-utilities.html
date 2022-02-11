@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="lists.css">
+    <link rel="stylesheet" href="text-utilities.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../../prism/prism.css">
     <script src="../../prism/prism.js" defer></script>
-    <title>Lists</title>
+    <title>Text-utilities</title>
 </head>
 
 <body>
@@ -31,78 +31,60 @@
             <li class="sidebar-item"><a href="../image/image.html" class="sidebar-link">Image</a></li>
             <li class="sidebar-item"><a href="../input/input.html" class="sidebar-link">Input</a></li>
             <li class="sidebar-item"><a href="../lists/lists.html" class="sidebar-link">Lists</a></li>
+            <li class="sidebar-item"><a href="../text-utilities/text-utilities.html"
+                    class="sidebar-link">Text-utilities</a></li>
         </ul>
     </nav>
-    
+
     <main class="main-container">
-            <h2 class="heading-2 fw-regular m-tp-one">Lists</h2>
-            <hr>
-            <section class="section">
-            <h4 class="heading-4 fw-regular">Spaced-list</h4>
-            <div class="wrapper p-1 m-tp-one">
-                <ul class="spaced-list p-1 m-lft-40pcnt">
-                    <div class="list-heading heading-4 fw-regular">Heading</div>
-                    <li class="list-item">Item 1</li>
-                    <li class="list-item">Item 2</li>
-                    <li class="list-item">Item 3</li>
-                    <li class="list-item">Item 4</li>
-                </ul>
-            </div>
-        </section>
-
-        <pre>
-            <code class="language-markup">
-                <ul class="spaced-list p-1">
-                    <div class="list-heading heading-4 fw-regular">Heading</div>
-                    <li class="list-item">Item 1</li>
-                    <li class="list-item">Item 2</li>
-                    <li class="list-item">Item 3</li>
-                    <li class="list-item">Item 4</li>
-                </ul>
-            </code>
-        </pre>
+        <h2 class="heading-2 fw-regular m-tp-one">Text-utilties</h2>
         <hr>
-
-        <!-- stacked lists -->
         <section class="section">
-            <h4 class="heading-4 fw-regular">Stacked-list</h4>
+            <h4 class="heading-4 fw-regular">Heading</h4>
             <div class="wrapper p-1 m-tp-one">
-                <ul class="stacked-list m-lft-40pcnt">
-                    <li class="list-item display-flex-c">
-                        Item 1
-                        <small>sub-heading</small>
-                    </li>
-                    <li class="list-item">Item 2</li>
-                    <li class="list-item">Item 3</li>
-                    <li class="list-item">Item 4</li>
-                </ul>
+                <h1 class="heading-1">Heading 1</h1>
+                <h2 class="heading-2">Heading 2</h2>
+                <h3 class="heading-3">Heading 3</h3>
+                <h4 class="heading-4">Heading-4</h4>
+                <h5 class="heading-5">Heading-5</h5>
             </div>
         </section>
 
         <pre>
             <code class="language-markup">
-                <ul class="stacked-list">
-                    <li class="list-item display-flex-c">
-                        Item 1
-                        <small>sub-heading</small>
-                    </li>
-                    <li class="list-item">Item 2</li>
-                    <li class="list-item">Item 3</li>
-                    <li class="list-item">Item 4</li>
-                </ul>
+                <h1 class="heading-1">Heading 1</h1>
+                <h2 class="heading-2">Heading 2</h2>
+                <h3 class="heading-3">Heading 3</h3>
+                <h4 class="heading-4">Heading-4</h4>
+                <h5 class="heading-5">Heading-5</h5>
             </code>
         </pre>
         <hr>
+
+        <section class="section">
+            <h4 class="heading-4 fw-regular">Font-weight</h4>
+            <div class="wrapper p-1 m-tp-one">
+                <p class="heading-3 fw-lght">Lorem, ipsum dolor.</p>
+                <p class="heading-3 fw-regular">Lorem, ipsum dolor.</p>
+                <p class="heading-3 fw-bold">Lorem, ipsum dolor.</p>
+            </div>
+        </section>
+
+        <pre>
+            <code class="language-markup">
+                <p class="heading-3 fw-lght">Lorem, ipsum dolor.</p>
+                <p class="heading-3 fw-regular">Lorem, ipsum dolor.</p>
+                <p class="heading-3 fw-bold">Lorem, ipsum dolor.</p>
+            </code>
+        </pre>
+        <hr>
+
     </main>
 
     <footer class="footer-container display-flex">
         <i class="fa-solid fa-angle-left footer-icon"></i>
-        <a href="../input/input.html" class="footer-link m-rght-auto">
-            Input</a>
-        <a href="../navigation/navigation.html" class="footer-link">
-            Navigation
-        </a>
-        <i class="fa-solid fa-angle-right footer-icon"></i>
+        <a href="../lists/lists.html" class="footer-link m-rght-auto">
+            Lists</a>
     </footer>
 </body>
 

@@ -10,6 +10,7 @@
     top: 0;
     width: 100%;
     min-height: 5rem;
+    align-items: center;
 }
 
 .nav-container > a{
