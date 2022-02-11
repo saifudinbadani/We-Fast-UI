@@ -6,3 +6,5 @@
 @import "./components/card/card.css";
 @import "./main/landing-page.css";
 @import "./documentation/documentation.css";
+@import "./components/lists/lists.css";
+@import "./components/navigation/navigation.css";

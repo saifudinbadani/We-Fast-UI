@@ -209,3 +209,13 @@ body {
 .wdth-100pcnt{
   width: 100%;
 }
+
+.min-hght-20{
+  min-height: 20rem;
+}
+
+/* colour properties */
+
+.clr-blue-500{
+  color: var(--blue-500);
+}
