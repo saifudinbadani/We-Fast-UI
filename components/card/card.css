@@ -39,6 +39,11 @@
     border-radius: 7px;
 }
 
+.card-img > .badge-container{
+    top: 1rem;
+    opacity: 0.8;
+}
+
 .card-content {
     margin-left: 1rem;
 }
@@ -46,6 +51,10 @@
 
 
 /* horizontal cards */
+.card-h{
+    max-height: 22.5rem;
+}
+
 .card-content-h {
     margin: auto 1rem;
 }
@@ -87,3 +96,4 @@
     padding-top: 12rem;
     text-align: center;
 }
+
