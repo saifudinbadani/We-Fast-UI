@@ -82,6 +82,7 @@ body {
 .heading-1 {
   font-size: var(--tp1);
   line-height: var(--lh1);
+  color: var(--heading);
 }
 
 .heading-2 {
@@ -93,6 +94,7 @@ body {
 .heading-3 {
   font-size: var(--tp3);
   line-height: var(--lh3);
+  color: var(--heading);
 }
 
 .heading-4 {
@@ -104,6 +106,7 @@ body {
 .heading-5 {
   font-size: var(--tp5);
   line-height: var(--lh5);
+  color: var(--heading);
 }
 
 /* font weight */
@@ -114,10 +117,6 @@ body {
 
 .fw-regular {
   font-weight: 400;
-}
-
-.fw-sm-bold {
-  font-weight: 600;
 }
 
 .fw-bold {
