@@ -22,6 +22,11 @@
     margin-left: auto;
 }
 
+.nav-link > span:hover,
+.nav-link > i:hover{
+    color: var(--black-500);
+}
+
 .home-main{
     font-size: 3rem;
     margin: 20rem; 
