@@ -23,7 +23,7 @@ Simple and conventional CSS component library made to use for small projects. It
 
 ## Demo
 
-<a href="./assets/readme/Screen Recording 2022-02-21 at 4.42.52 pm.mp4" title="Demo"><img src="#" alt="Alternate Text" /></a>
+demo will come here..
 
 
 
