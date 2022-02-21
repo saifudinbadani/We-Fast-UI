@@ -1,6 +1,6 @@
 @import "../../shared.css";
 
-.btn{
+.btn {
     padding: 0.2rem 0.8rem;
     margin: 0.8rem;
     border-radius: 3px;
@@ -10,89 +10,91 @@
     font-size: 1.7rem;
 }
 
-.btn:hover{
+.btn:hover {
     transition: 0.3s;
 }
+
 /* primary buttons */
-.btn-solid-primary{
+.btn-solid-primary {
     background-color: var(--blue-500);
     color: white;
 }
 
-.btn-solid-primary:hover{
+.btn-solid-primary:hover {
     opacity: 0.8;
 }
-.btn-solid-secondary{
+
+.btn-solid-secondary {
     background-color: var(--black-500);
     color: white;
 }
 
-.btn-solid-secondary:hover{
+.btn-solid-secondary:hover {
     opacity: 0.8;
 }
 
-.btn-solid-cancel{
+.btn-solid-cancel {
     background-color: var(--red-500);
     color: white;
 }
 
-.btn-solid-cancel:hover{
+.btn-solid-cancel:hover {
     opacity: 0.8;
 }
 
 
 /* outline buttons */
 
-.btn-outline-primary{
+.btn-outline-primary {
     border: 1px solid var(--blue-500);
     color: var(--blue-500);
 }
 
-.btn-outline-primary:hover{
+.btn-outline-primary:hover {
     background-color: var(--blue-500);
     color: white;
 }
 
-.btn-outline-secondary{
+.btn-outline-secondary {
     border: 1px solid var(--black-500);
     color: var(--black-500);
 }
 
-.btn-outline-secondary:hover{
+.btn-outline-secondary:hover {
     color: white;
     background-color: var(--black-500);
 }
 
-.btn-outline-cancel{
+.btn-outline-cancel {
     border: 1px solid var(--red-500);
     color: var(--red-500);
 }
 
-.btn-outline-cancel:hover{
+.btn-outline-cancel:hover {
     color: white;
     background-color: var(--red-500);
 }
 
 
 /* icons */
-.btn-t-icon{
-    
+.btn-t-icon {
+
     border: 1px solid var(--black-500);
-    color: var(--black-500); 
+    color: var(--black-500);
 }
 
-.btn-t-icon:hover{
+.btn-t-icon:hover {
     color: white;
     background-color: var(--black-500);
 }
 
-.btn-icon{
-   font-size: 2rem;
-   padding-bottom: 0.2rem;
+.btn-icon {
+    font-size: 2rem;
+    padding-bottom: 0.2rem;
 }
 
 /* floating buttons */
-.flt-btn{
+.flt-btn {
     height: 4rem;
     width: 4rem;
     background-color: var(--blue-500);
@@ -101,16 +103,56 @@
     font-size: 3.5rem;
     justify-content: center;
     align-items: center;
-    padding: 0;  
+    padding: 0;
 }
 
-.flt-btn:hover{
+.flt-btn:hover {
     opacity: 0.8;
 }
 
 /* button size */
 
-.btn-l{
+.btn-l {
     padding: 1rem;
     font-size: 2rem;
 }
+
+/* link */
+
+.link {
+    font-size: 1.7rem;
+}
+
+/* primary link */
+.primary-link:link {
+    color: var(--blue-500);
+}
+
+
+.primary-link:visited {
+    color: var(--blue-500);
+}
+
+
+.primary-link:hover {
+    color: var(--blue-300);
+    text-decoration: underline;
+}
+
+/* secondary link */
+
+.secondary-link:link {
+    color: var(--black-500);
+    text-decoration: underline;
+}
+
+
+.secondary-link:visited {
+    color: var(--black-500);
+}
+
+
+.secondary-link:hover {
+    color: var(--blue-300);
+}
+
