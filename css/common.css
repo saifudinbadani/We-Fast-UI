@@ -123,6 +123,12 @@ body {
   font-weight: 700;
 }
 
+/* font alignment */
+
+.txt-align-cntr{
+  text-align: center;
+}
+
 /* display properties */
 
 .display-flex {
