@@ -23,10 +23,7 @@ Simple and conventional CSS component library made to use for small projects. It
 
 ## Demo
 
-<video width="320" height="240" controls>
-  <source src="./assets/readme/Screen Recording 2022-02-21 at 4.42.52 pm.mp4" type="video/mp4">
-Your browser does not support the video tag.
-</video>
+<video src="../../assets/readme/Screen Recording 2022-02-21 at 4.42.52 pm.mp4" controls></video>
 
 
 ## Components
