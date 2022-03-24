@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="modal.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../prism/prism.css">
+    <script src="../../prism/prism.js" defer></script>
+    <title>Modal</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav-container display-flex">
+            <a href="../../index.html" class="nav-link">
+                <span class="heading-3 clr-blue-500 fw-lght">We-Fast <small>UI</small></span>
+            </a>
+            <a href="https://github.com/saifudinbadani" target="_blank" class="nav-link">
+                <i class="fab fa-github heading-1 clr-blue-500"></i>
+            </a>
+        </nav>
+    </header>
+    <nav>
+        <ul class="sidebar-container">
+            <div class="heading-3">Guide</div>
+            <li class="sidebar-item"><a href="../../documentation/documentation.html" class="sidebar-link">How to
+                    use?</a></li>
+            <div class="sidebar-heading heading-3">Components</div>
+            <li class="sidebar-item"><a href="../../components/alerts/alert.html" class="sidebar-link">Alert</a></li>
+            <li class="sidebar-item"><a href="../../components/avatar/avatar.html" class="sidebar-link">Avatar</a></li>
+            <li class="sidebar-item"><a href="../../components/badge/badge.html" class="sidebar-link">Badge</a></li>
+            <li class="sidebar-item"><a href="../../components/button/button.html" class="sidebar-link">Button</a></li>
+            <li class="sidebar-item"><a href="../../components/card/card.html" class="sidebar-link">Card</a></li>
+            <li class="sidebar-item"><a href="../../components/image/image.html" class="sidebar-link">Image</a></li>
+            <li class="sidebar-item"><a href="../../components/input/input.html" class="sidebar-link">Input</a></li>
+            <li class="sidebar-item"><a href="../../components/lists/lists.html" class="sidebar-link">Lists</a></li>
+            <li class="sidebar-item"><a href="../../components/modal/modal.html" class="sidebar-link">Modal</a></li>
+            <li class="sidebar-item"><a href="../../components/navigation/navigation.html"
+                    class="sidebar-link">Navigation</a></li>
+            <li class="sidebar-item"><a href="../../components/text-utilities/text-utilities.html"
+                    class="sidebar-link">Text-utilities</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-container">
+        <h2 class="heading-2 fw-regular m-tp-one">Modal</h2>
+        <hr>
+        <section class="section">
+            <p class="heading-4 m-tp-one fw-lght">To make a modal, copy paste the code provided.</p>
+            <div class="wrapper p-1 m-tp-one pos-rltv min-hght-20">
+                <button class="modal-show btn btn-solid-secondary">Show</button>
+                <div class="modal border-1px-solid pos-rltv z-index-three">
+                    <div class="modal-text heading-3"> This is a modal</div>
+                    <button class="modal-btn pos-absolute  m-r-1">
+                        <i class="modal-close far fa-times-circle"></i>
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+        <pre>
+            <code class="language-markup">
+                <div class="modal border-1px-solid pos-rltv z-index-three">
+                    <div class="modal-text heading-3"> This is a modal</div>
+                    <button class="modal-btn pos-absolute  m-r-1">
+                        <i class="modal-close far fa-times-circle"></i>
+                    </button>
+                </div>
+
+                <!-- code used for closing and showing modal: -->
+                const modalClose = document.querySelector(".modal-close");
+                const modal = document.querySelector('.modal');
+                const modalShow = document.querySelector('.modal-show');
+
+
+                function handleModalClose()  {
+                modal.style.display = 'none'
+                }
+                function handleModalShow = () {
+                modal.style.display = 'block'
+                }
+
+                modalClose.addEventListener('click' , handleModalClose)  
+                modalShow.addEventListener('click', handleModalShow) 
+            </code>
+        </pre>
+        <hr>
+    </main>
+    <footer class="footer-container display-flex">
+        <i class="fa-solid fa-angle-left footer-icon"></i>
+        <a href="../lists/lists.html" class="footer-link m-rght-auto">
+            Lists</a>
+        <a href="../modal/modal.html" class="footer-link">
+            Navigation
+        </a>
+        <i class="fa-solid fa-angle-right footer-icon"></i>
+    </footer>
+    <script src="../../index.js"></script>
+</body>
+
+</html>
