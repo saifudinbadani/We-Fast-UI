@@ -1,0 +1,24 @@
+@import "../../shared.css";
+
+.modal{
+   position: fixed; 
+   height: 40rem;
+   width: 60rem;
+   border-color:black;
+   background-color: var(--body);
+   display: none;
+}
+
+.modal-btn{
+    top: 0;
+    right: 0;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
+.modal-close{
+    font-size: 3.2rem;
+    line-height: 0;
+}
+
