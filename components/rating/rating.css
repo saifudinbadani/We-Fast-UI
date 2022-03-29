@@ -1,0 +1,10 @@
+@import "../../shared.css";
+
+.rating-star{
+    font-size: var(--tp2);
+}
+
+.rating-star-checked{
+    color: var(--orange-500);
+   
+}

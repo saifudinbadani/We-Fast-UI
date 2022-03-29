@@ -8,7 +8,8 @@ const handleModalClose = () => {
 }
 const handleModalShow = () => {
     modal.style.display = 'block'
-}
+  }
 
 modalClose.addEventListener('click' , handleModalClose)  
-modalShow.addEventListener('click', handleModalShow) 
+modalShow.addEventListener('click', handleModalShow)
+
