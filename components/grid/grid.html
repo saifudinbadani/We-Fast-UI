@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="grid.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../prism/prism.css">
+    <script src="../../prism/prism.js" defer></script>
+    <title>Grid</title>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav-container display-flex">
+            <a href="../../index.html" class="nav-link">
+                <span class="heading-3 clr-blue-500 fw-lght">We-Fast <small>UI</small></span>
+            </a>
+            <a href="https://github.com/saifudinbadani" target="_blank" class="nav-link">
+                <i class="fab fa-github heading-1 clr-blue-500"></i>
+            </a>
+        </nav>
+    </header>
+    <nav>
+        <ul class="sidebar-container">
+            <div class="heading-3">Guide</div>
+            <li class="sidebar-item"><a href="../../documentation/documentation.html" class="sidebar-link">How to
+                    use?</a></li>
+            <div class="sidebar-heading heading-3">Components</div>
+            <li class="sidebar-item"><a href="../../components/alerts/alert.html" class="sidebar-link">Alert</a></li>
+            <li class="sidebar-item"><a href="../../components/avatar/avatar.html" class="sidebar-link">Avatar</a></li>
+            <li class="sidebar-item"><a href="../../components/badge/badge.html" class="sidebar-link">Badge</a></li>
+            <li class="sidebar-item"><a href="../../components/button/button.html" class="sidebar-link">Button</a></li>
+            <li class="sidebar-item"><a href="../../components/card/card.html" class="sidebar-link">Card</a></li>
+            <li class="sidebar-item"><a href="../../components/grid/grid.html" class="sidebar-link">Grid</a></li>
+            <li class="sidebar-item"><a href="../../components/image/image.html" class="sidebar-link">Image</a></li>
+            <li class="sidebar-item"><a href="../../components/input/input.html" class="sidebar-link">Input</a></li>
+            <li class="sidebar-item"><a href="../../components/lists/lists.html" class="sidebar-link">Lists</a></li>
+            <li class="sidebar-item"><a href="../../components/modal/modal.html" class="sidebar-link">Modal</a></li>
+            <li class="sidebar-item"><a href="../../components/navigation/navigation.html"
+                    class="sidebar-link">Navigation</a></li>
+            <li class="sidebar-item"><a href="../../components/rating/rating.html" class="sidebar-link">Rating</a></li>
+            <li class="sidebar-item"><a href="../../components/text-utilities/text-utilities.html"
+                    class="sidebar-link">Text-utilities</a></li>
+        </ul>
+    </nav>
+
+    <main class="main-container">
+        <h2 class="heading-2 fw-regular m-tp-one">Grid</h2>
+        <hr>
+        <section class="section">
+            <p class="heading-4 m-tp-one fw-lght">To make grid with two columns, copy paste the code provided.</p>
+            <div class="wrapper p-1 m-tp-one pos-rltv min-hght-20">
+                <div class="grid-container-two-items">
+                    <div class="grid-child heading-4 border-1px-solid txt-align-cntr p-1">Element 1</div>
+                    <div class="grid-child heading-4 border-1px-solid txt-align-cntr p-1">Element 2</div>
+                </div>
+            </div>
+        </section>
+
+        <pre>
+            <code class="language-markup">
+                <div class="grid-container-two-items">
+                    <div class="grid-child">Element 1</div>
+                    <div class="grid-child">Element 2</div>
+                </div>
+            </div>
+            </code>
+        </pre>
+        <hr>
+
+        <section class="section">
+            <p class="heading-4 m-tp-one fw-lght">To make grid with three columns, copy paste the code provided.</p>
+            <div class="wrapper p-1 m-tp-one pos-rltv min-hght-20">
+                <div class="grid-container-three-items">
+                    <div class="grid-child heading-4 border-1px-solid txt-align-cntr p-1">Element 1</div>
+                    <div class="grid-child heading-4 border-1px-solid txt-align-cntr p-1">Element 2</div>
+                    <div class="grid-child heading-4 border-1px-solid txt-align-cntr p-1">Element 3</div>
+                </div>
+            </div>
+        </section>
+
+        <pre>
+            <code class="language-markup">
+                <div class="grid-container-three-items">
+                    <div class="grid-child">Element 1</div>
+                    <div class="grid-child">Element 2</div>
+                    <div class="grid-child">Element 3</div>
+                </div>
+            </div>
+            </code>
+        </pre>
+    </main>
+    <footer class="footer-container display-flex">
+        <i class="fa-solid fa-angle-left footer-icon"></i>
+        <a href="../card/card.html" class="footer-link m-rght-auto">
+            Card</a>
+        <a href="../image/image.html" class="footer-link">
+            Image
+        </a>
+        <i class="fa-solid fa-angle-right footer-icon"></i>
+    </footer>
+    <script src="./rating.js"></script>
+</body>
+
+</html>

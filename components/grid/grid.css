@@ -1,0 +1,18 @@
+@import "../../shared.css";
+
+.grid-container-two-items{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-container-three-items{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-child{
+    border-radius: 0.3rem;
+    background-color: var(--green-500);
+}
