@@ -149,6 +149,10 @@ body {
   position: absolute;
 }
 
+.pos-fixed{
+  position: fixed;
+}
+
 .z-index-one{
   z-index: 1;
 }

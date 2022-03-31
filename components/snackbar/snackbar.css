@@ -1,0 +1,15 @@
+@import "../../shared.css";
+
+.snackbar{
+    background-color: var(--orange-500);
+    color: var(--secondary);
+    display: inline-block;
+    border-radius: 0.5rem;
+    visibility: hidden;
+    right: 3rem;
+    top: 10rem;
+}
+
+.show-snackbar{
+    visibility: visible;
+}

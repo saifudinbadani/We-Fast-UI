@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="snackbar.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../../prism/prism.css">
     <script src="../../prism/prism.js" defer></script>
-    <title>Grid</title>
+    <title>Snackbar</title>
 </head>
 
 <body>
@@ -42,66 +42,60 @@
             <li class="sidebar-item"><a href="../../components/navigation/navigation.html"
                     class="sidebar-link">Navigation</a></li>
             <li class="sidebar-item"><a href="../../components/rating/rating.html" class="sidebar-link">Rating</a></li>
+            <li class="sidebar-item"><a href="../../components//snackbar/snackbar.html"
+                    class="sidebar-link">Snackbar</a></li>
             <li class="sidebar-item"><a href="../../components/text-utilities/text-utilities.html"
                     class="sidebar-link">Text-utilities</a></li>
         </ul>
     </nav>
 
     <main class="main-container">
-        <h2 class="heading-2 fw-regular m-tp-one">Grid</h2>
+        <h2 class="heading-2 fw-regular m-tp-one">Snackbar</h2>
         <hr>
         <section class="section">
-            <p class="heading-4 m-tp-one fw-lght">To make grid with two columns, copy paste the code provided.</p>
+            <p class="heading-4 m-tp-one fw-lght">To make a snackbar, copy paste the code provided.
+            </p>
             <div class="wrapper p-1 m-tp-one pos-rltv min-hght-20">
-                <div class="grid-container-two-items">
-                    <div class="grid-child heading-4 border-1px-solid txt-align-cntr p-1">Element 1</div>
-                    <div class="grid-child heading-4 border-1px-solid txt-align-cntr p-1">Element 2</div>
-                </div>
+                <button class="snackbar-btn btn btn-solid-primary">Show Snackbar</button>
+                <div class="snackbar heading-4 p-1 pos-fixed">This is a sample snackbar</div>
             </div>
         </section>
+        <p class="heading-4 m-tp-one fw-lght">note: I have used a simple background colour and font class to design the
+            snackbar, it works with the javascript for which I have provided the code below.</p>
+
 
         <pre>
             <code class="language-markup">
-                <div class="grid-container-two-items">
-                    <div class="grid-child">Element 1</div>
-                    <div class="grid-child">Element 2</div>
-                </div>
-            </div>
+                <button class="snackbar-btn btn btn-solid-primary">Show Snackbar</button>
+                <div class="snackbar heading-4 p-1 pos-fixed">This is a sample snackbar</div>
+
+                <!-- Javascript -->
+                const snackbarBtn = document.querySelector('.snackbar-btn');
+                const snackbar = document.querySelector('.snackbar')
+
+                function removeSnackbar(){
+                    snackbar.classList.remove('show-snackbar')
+                }
+                function showSnackbar(){
+                    snackbar.classList.add('show-snackbar');
+                    setTimeout(removeSnackbar() , 3000);
+                }
+
+                snackbarBtn.addEventListener('click', showSnackbar)
             </code>
         </pre>
         <hr>
-
-        <section class="section">
-            <p class="heading-4 m-tp-one fw-lght">To make grid with three columns, copy paste the code provided.</p>
-            <div class="wrapper p-1 m-tp-one pos-rltv min-hght-20">
-                <div class="grid-container-three-items">
-                    <div class="grid-child heading-4 border-1px-solid txt-align-cntr p-1">Element 1</div>
-                    <div class="grid-child heading-4 border-1px-solid txt-align-cntr p-1">Element 2</div>
-                    <div class="grid-child heading-4 border-1px-solid txt-align-cntr p-1">Element 3</div>
-                </div>
-            </div>
-        </section>
-
-        <pre>
-            <code class="language-markup">
-                <div class="grid-container-three-items">
-                    <div class="grid-child">Element 1</div>
-                    <div class="grid-child">Element 2</div>
-                    <div class="grid-child">Element 3</div>
-                </div>
-            </div>
-            </code>
-        </pre>
     </main>
     <footer class="footer-container display-flex">
         <i class="fa-solid fa-angle-left footer-icon"></i>
-        <a href="../card/card.html" class="footer-link m-rght-auto">
-            Card</a>
-        <a href="../image/image.html" class="footer-link">
-            Image
+        <a href="../rating/rating.html" class="footer-link m-rght-auto">
+            Rating</a>
+        <a href="../text-utilities/text-utilities.html" class="footer-link">
+            Text-utlities
         </a>
         <i class="fa-solid fa-angle-right footer-icon"></i>
     </footer>
+    <script src="./snackbar.js"></script>
 </body>
 
 </html>
